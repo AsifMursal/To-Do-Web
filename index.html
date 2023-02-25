@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><div class="container">
+    <h1>Welcome to Taskify</h1>
+    <form>
+        <input type="text" id="taskinput" placeholder="Enter your task here..">
+        <input type="text" id="saveindex" hidden>
+        <button id="add">Add</button>
+        <button id="save" style="display: none;">save</button>
+        <button id="reset">Reset</button>
+
+    </form><div class="tables"><div class="todoTasks"><h1>To Do Tasks</h1>
+    <table  id="taskTable">
+    </table></div><div class="complete">
+    <h1>Completed Tasks</h1>
+    <table id="completedtasks"></table></div></div></div>
+</body>
+<script src="script.js"></script>
+</html>

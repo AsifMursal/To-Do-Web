@@ -1,0 +1,40 @@
+body{background-color: #ECF2FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{padding: 20px;
+    background-color: #E3DFFD;
+    border: 3px solid #767160;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tables{
+    margin-top: 7vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+table, th, td,th {
+    border: 1px solid;
+    padding: 10px;
+    border-collapse: collapse;
+  }
+
+.task-name{
+    width: 17vw;
+}
+
+input[type="text"]{
+    padding: 10px;
+    width: 25vw;
+}
+button{background-color: #E5D1FA;
+    padding: 10px;
+}
